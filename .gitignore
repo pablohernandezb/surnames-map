@@ -1,0 +1,34 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore R cache files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore CSV, TXT, and DTA data files
+*.csv
+*.txt
+*.dta
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore generated datasets
+# (add more patterns as needed)
