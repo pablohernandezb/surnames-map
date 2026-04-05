@@ -49,7 +49,7 @@ state_colors = {
     23: (46, 49, 146), # Zulia
     1: (102, 45, 145), # Amazonas
     9: (102, 45, 145), # Delta Amacuro
-    21: (147, 149, 152) # Vargas
+    21: (96, 88, 76) # Vargas
 }
 
 # 4. Iterative Generation per State
@@ -113,5 +113,5 @@ for idx, row in venezuela_map.iterrows():
 venezuela_map.boundary.plot(ax=ax, color="#ffffff", linewidth=0.5, zorder=1)
 
 #plt.title("Mapa de Apellidos: Venezuela", fontsize=24, pad=20)
-plt.savefig("figure_output2.png", dpi=100)
+plt.savefig("figure_output3.png", dpi=400)
 plt.show()
