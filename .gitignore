@@ -32,3 +32,4 @@ Thumbs.db
 
 # Ignore generated datasets
 # (add more patterns as needed)
+others/*
